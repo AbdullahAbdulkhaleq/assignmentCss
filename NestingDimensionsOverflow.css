@@ -1,0 +1,28 @@
+.child > span {
+    color: red;
+}
+
+.child + .title {
+    color: blue;
+} 
+
+span + p ,
+.parent ~ .title {
+    color: green;
+}
+
+.assign-2-shape-1 ,
+.assign-2-shape-2 ,
+.assign-2-shape-3 ,
+.assign-2-shape-4  {
+    background-color: #a52a2a;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    max-width: 340px;
+    max-height: 40px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+}
